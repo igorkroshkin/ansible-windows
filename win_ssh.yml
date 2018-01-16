@@ -1,5 +1,6 @@
 ---
-- name: Deploy OpenSSH server
+- name: Install and configure OpenSSH server
   hosts: windows
+  gather_facts: false
   roles:
     - win_service_config
