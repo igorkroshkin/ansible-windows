@@ -1,0 +1,5 @@
+---
+- name: Deploy OpenSSH server
+  hosts: windows
+  roles:
+    - win_service_config
